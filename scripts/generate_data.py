@@ -84,8 +84,6 @@ def generate_data(num_users=5000, output_dir="data"):
         for day in range(1, 8):
             if random.random() < retention_probs[day]:
                 active_days.append(day)
-            else:
-                break
                 
         # Generate events for active days
         for day in active_days:
