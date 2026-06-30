@@ -1,5 +1,7 @@
 # Product Analytics & A/B Testing: Optimizing User Onboarding & Retention
 
+⚡ **Live Dashboard:** [View Interactive Dashboard](https://appuct-analytics-ab-testing-knvs4bk8azkunzmx5stkkt.streamlit.app/)
+
 Welcome to this end-to-end Product Analytics & A/B Testing portfolio project. This repository demonstrates how a Data Analyst solves ambiguous, high-impact business problems at FAANG and top-tier MNCs. 
 
 It covers the complete data lifecycle: from parsing raw, messy user event logs to funnel analysis, cohort retention modeling, statistical hypothesis testing (Z-test, Chi-Square, T-test), dashboard modeling, and executive presentation formatting.
