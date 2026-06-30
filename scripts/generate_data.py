@@ -98,6 +98,15 @@ def generate_data(num_users=5000, output_dir="data"):
                     'event_name': 'sign_up',
                     'event_value': 0.0
                 })
+                # Add email_verified event for 90% of users
+                if random.random() < 0.90:
+                    events.append({
+                        'event_id': str(uuid.uuid4()),
+                        'user_id': user_id,
+                        'timestamp': (event_date + timedelta(minutes=random.randint(1, 5))).strftime('%Y-%m-%d %H:%M:%S'),
+                        'event_name': 'email_verified',
+                        'event_value': 0.0
+                    })
             
             # Daily active actions
             num_actions = random.randint(2, 8)
